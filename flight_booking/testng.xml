@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="FlightBooking_TS01">
+
+<listeners>
+<listener class-name="ryanair.flight_booking.base.TestListener"></listener>
+</listeners>  
+
+<test thread-count="5" name="FlightBooking_TC01">
+    <classes>
+      <class name="ryanair.flight_booking.FlightBookingTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
